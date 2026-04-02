@@ -14,8 +14,3 @@ Icon
 
 # Rust
 /target
-Cargo.lock
-
-# Glyphs
-*.glyphspackage
-*.glyphs

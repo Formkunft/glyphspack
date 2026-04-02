@@ -2,18 +2,23 @@
 name = "glyphspack"
 version = "2.0.0"
 authors = ["Florian Pircher <florian@formkunft.com>"]
-edition = "2018"
+edition = "2024"
+rust-version = "1.85"
 description = "Convert between .glyphs and .glyphspackage files."
 license = "MIT OR Apache-2.0"
 
 [dependencies]
 anyhow = "1.0"
-pest = "2.1.3"
-pest_derive = "2.1.0"
-rayon = "1.5.3"
-regex = "1.5.6"
+pest = "2.8"
+pest_derive = "2.8"
+rayon = "1.11"
+regex = "1.12"
 
 [dependencies.clap]
-version = "3.1.18"
-default-features = false
-features = ["std", "suggestions", "wrap_help"]
+version = "4"
+features = ["wrap_help"]
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"
