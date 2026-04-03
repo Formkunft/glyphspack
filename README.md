@@ -16,7 +16,7 @@ Packing OtherFont.glyphs into OtherFont.glyphspackage
 Write the contents to the standard output:
 
 ```sh
-$ glyphspack -fo /dev/stdout SomeFont.glyphspackage
+glyphspack -fo /dev/stdout SomeFont.glyphspackage
 ```
 
 Options:
@@ -29,12 +29,16 @@ Run with `--help` for a complete parameter description.
 
 ## Installation
 
-The [releases page](https://github.com/Formkunft/glyphspack/releases) provides pre-built executables for **macOS** (universal binary, works with both Apple silicon and Intel), **Linux** (x64 64 bit), and **Windows** (x64 64 bit).
-
-Alternatively, `glyphspack` can be installed from source with [cargo](https://doc.rust-lang.org/cargo/):
+**pip:** `glyphspack` can be installed from [PyPI](https://pypi.org/project/glyphspack/):
 
 ```sh
-$ cargo install glyphspack
+pip install glyphspack
+```
+
+**Cargo:** `glyphspack` can be installed from [crates.io](https://crates.io/crates/glyphspack):
+
+```sh
+cargo install glyphspack
 ```
 
 ## Alternatives
