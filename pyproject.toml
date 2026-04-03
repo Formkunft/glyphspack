@@ -1,0 +1,19 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "glyphspack"
+version = "2.0.0"
+description = "Convert between .glyphs and .glyphspackage files."
+license = "MIT OR Apache-2.0"
+authors = [{ name = "Florian Pircher", email = "florian@formkunft.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+Repository = "https://github.com/Formkunft/glyphspack"
+
+[tool.maturin]
+bindings = "bin"
+strip = true
