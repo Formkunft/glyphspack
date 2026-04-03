@@ -29,7 +29,7 @@ Run with `--help` for a complete parameter description.
 
 ## Installation
 
-The [releases page](https://github.com/florianpircher/glyphspack/releases) provides pre-built executables for **macOS** (universal binary, works with both Apple silicon and Intel), **Linux** (x64 64 bit), and **Windows** (x64 64 bit).
+The [releases page](https://github.com/Formkunft/glyphspack/releases) provides pre-built executables for **macOS** (universal binary, works with both Apple silicon and Intel), **Linux** (x64 64 bit), and **Windows** (x64 64 bit).
 
 Alternatively, `glyphspack` can be installed from source with [cargo](https://doc.rust-lang.org/cargo/):
 
